@@ -1,5 +1,5 @@
 import tensorflow as tf
-from tensorflow.keras import layers, models
+from keras import layers, models
 
 def build_cnn_autoencoder(input_shape=(28, 28, 1)):
     inputs = layers.Input(shape=input_shape)

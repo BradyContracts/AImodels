@@ -1,6 +1,6 @@
 import tensorflow as tf
-from tensorflow.keras import layers, models
-from tensorflow.keras import backend as K
+from keras import layers, models
+from keras import backend as K
 import numpy as np
 
 def sampling(args):
