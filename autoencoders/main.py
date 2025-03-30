@@ -10,10 +10,6 @@ x_test = x_test.astype('float32') / 255.
 x_train = x_train.reshape((-1, 28, 28, 1))
 x_test = x_test.reshape((-1, 28, 28, 1))
 
-# Train MLP AutoEncoder
-mlp_autoencoder = build_mlp_autoencoder(input_shape=(784,))
-mlp_autoencoder.fit(x_train.reshape(-1, 784), x_train.reshape(-1, 784), epochs=10, batch_size=256, validation_data=(x_test.reshape(-1, 784), x_test.reshape(-1, 784)))
-
 # Train CNN AutoEncoder
 cnn_autoencoder = build_cnn_autoencoder(input_shape=(28, 28, 1))
 cnn_autoencoder.fit(x_train, x_train, epochs=10, batch_size=256, validation_data=(x_test, x_test))
