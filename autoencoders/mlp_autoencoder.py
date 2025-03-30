@@ -1,5 +1,5 @@
 import tensorflow as tf
-from tensorflow.keras import layers, models
+from keras import layers, models
 
 def build_mlp_autoencoder(input_shape=(784,)):
     # Encoder
