@@ -1,0 +1,7 @@
+[
+    "while counter > 7:\n    x > x",
+    "class xrqfyyifgdfkcca:\n    pass",
+    "def rjcitxhvykcenbx(value, x, z, result):\n    temp * temp",
+    "for result in list(pwbvhuefrqhmeip):\n    from z import z",
+    "for z in range=10):\n    if counter:\n    # do something\nelse:\n    # do something else"
+]
