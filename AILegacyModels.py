@@ -31,7 +31,8 @@ model.compile(optimizer='adam',
 
 # Summary of the model
 model.summary()
-    print ("legacy operation performed")
+print ("legacy operation performed")
+
       
 
 
